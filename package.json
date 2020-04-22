@@ -1,0 +1,17 @@
+{
+  "name": "react-icon-view",
+  "version": "1.0.0",
+  "description": "The react view icon",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Slooo <borisworking@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
