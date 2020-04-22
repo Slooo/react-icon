@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "allowJs": false,
+    "jsx": "react",
+    "target": "es5",
+    "esModuleInterop": true,
+    "paths": {
+      "@src/*": ["src/*"],
+      "entities": ["./src/entities"],
+      "types": ["./src/types"],
+      "interfaces": ["./src/interfaces"],
+      "components": ["./src/components"],
+      "UI": ["./src/UI"]
+    }
+  }
+//  "include": ["src/**/*"],
+//  "exclude": ["node_modules", "build"]
+}
